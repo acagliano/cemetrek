@@ -1,0 +1,1 @@
+data merge block ~ ~1 ~ {front_text:{messages:["{\"text\":\"\"}","{\"text\":\"-toggle mode-\"}","{\"text\":\"[click]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function trek:red/weaponmode\"}}","{\"text\":\"\"}"]}}

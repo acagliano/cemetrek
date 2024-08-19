@@ -1,0 +1,1 @@
+data merge block ~ ~1 ~ {front_text:{messages:["{\"text\":\"\"}","{\"text\":\"-scan target-\"}","{\"text\":\"[photon count]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function trek:red/displays/enemy_photons\"}}","{\"text\":\"\"}"]}}

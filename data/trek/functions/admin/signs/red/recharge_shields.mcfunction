@@ -1,0 +1,1 @@
+data merge block ~ ~1 ~ {front_text:{messages:["{\"text\":\"\"}","{\"text\":\"-repair shields-\"}","{\"text\":\"[click]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function trek:red/repairshields\"}}","{\"text\":\"\"}"]}}

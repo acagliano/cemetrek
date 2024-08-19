@@ -1,0 +1,74 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_beef",
+					"weight": 4,
+					"functions": [
+						{"function": "minecraft:set_name", "name":{"text": "Synthetic Food Rations"}},
+						{"function": "minecraft:set_nbt", "tag":"{map:1b}"}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:arrow",
+					"weight": 4,
+					"functions": [
+						{"function": "minecraft:set_nbt", "tag":"{map:1b}"}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 5,
+					"functions": [
+						{"function": "minecraft:set_name", "name":{"text": "Phaser Charge Type I"}},
+                                                {"function": "minecraft:set_nbt", "tag":"{map:1b,Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[2437522]}]}}"}
+					]
+
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_rocket",
+					"weight": 3,
+					"functions": [
+						{"function": "minecraft:set_name", "name":{"text": "Phaser Charge Type II"}},
+                                                {"function": "minecraft:set_nbt", "tag":"{map:1b,Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[2437522]},{Type:0b,Colors:[2437522]}]}}"}
+					]
+				},
+				{
+                                        "type": "minecraft:item",
+                                        "name": "minecraft:firework_rocket",
+                                        "weight": 1,
+                                        "functions": [
+                                                {"function": "minecraft:set_name", "name":{"text": "Phaser Charge Type III"}},
+						{"function": "minecraft:set_nbt", "tag":"{map:1b,Fireworks:{Flight:1b,Explosions:[{Type:0b,Colors:[2437522]},{Type:0b,Colors:[2437522]},{Type:0b,Colors:[2437522]}]}}"}
+					]
+
+                                },
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fire_charge",
+					"weight": 3,
+					"functions": [
+						{"function": "minecraft:set_name", "name":{"text": "Photon Torpedo"}},
+						{"function": "minecraft:set_nbt", "tag":"{Photon:1b,map:1b}"}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:blaze_powder",
+					"weight": 6,
+					"functions": [
+						{"function": "minecraft:set_name", "name":{"text": "Energy"}},
+						{"function": "minecraft:set_nbt", "tag":"{Energy:1b,map:1b}"}
+					]
+				}
+			]
+		}
+	]
+}

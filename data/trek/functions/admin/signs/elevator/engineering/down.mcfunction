@@ -1,0 +1,1 @@
+data merge block ~ ~1 ~ {front_text:{messages:["{\"text\":\"\"}","{\"text\":\"--down--\"}","{\"text\":\"[click]\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"execute as @p[distance=..3] at @s run tp @s ~ ~-18 ~\"}}","{\"text\":\"\"}"]}}

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"XXX",
+		"XYX",
+		"XXX"
+	],
+	"key": {
+		"X": {
+			"item": "minecraft:blaze_powder",
+			"nbt": "{Energy:1b}"
+		},
+		"Y": {
+			"item": "minecraft:fire_charge",
+			"nbt": "{Photon:1b}"
+		}
+	},
+	"result": {
+		"item": "minecraft:fire_charge",
+		"count": 1,
+		"nbt": "{display:{Name:\"\\\"Quantum Torpedo\\\"\"},Quantum:1b}"
+	}
+}
